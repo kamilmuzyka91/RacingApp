@@ -1,0 +1,11 @@
+.navigation {
+  .navigation__list {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(150, 221, 57);
+    font-family: $pacifico-font;
+    .navigation__list__link {
+        padding: 10px;
+    }
+  }
+}

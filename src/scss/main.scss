@@ -1,0 +1,17 @@
+@import "./reset";
+@import "./mixins";
+@import "./fonts";
+@import "./elements/navigation";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: red;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
